@@ -1,0 +1,32 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 17 2019 11:01:36
+gem5 started May  1 2019 22:24:52
+gem5 executing on metallica.cse.buffalo.edu, pid 3840
+command line: build/X86/gem5.opt -d /home/csgrad/ahamed/bin/sims/sim_l1i_assoc_1 configs/example/se.py -I 100000000 -c /util/gem5/benchmark/456.hmmer/src/benchmark -o ' --fixed 0 --mean 325 --num 45000 --sd 200 --seed 0 /util/gem5/benchmark/456.hmmer/data/bombesin.hmm.new ' --caches --l2cache --l1d_size=256kB --l1i_size=256kB --l2_size=4MB --l1d_assoc=16 --l1i_assoc=1 --l2_assoc=16 --cacheline_size=128
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/util/gem5/benchmark/456.hmmer/src/benchmark'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+hmmcalibrate -- calibrate HMM search statistics
+HMMER 2.3 (May 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                 /util/gem5/benchmark/456.hmmer/data/bombesin.hmm.new
+Length distribution mean: 325
+Length distribution s.d.: 200
+Number of samples:        45000
+random seed:              0
+histogram(s) saved to:    [not saved]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Exiting @ tick 84295259000 because a thread reached the max instruction count

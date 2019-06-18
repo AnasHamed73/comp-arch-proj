@@ -1,0 +1,75 @@
+sim_l1i_assoc_16
+l2_miss_rate 0.906191
+l2_misses_num 1216872
+l1_dcache_hits 63676259
+l1_dcache_misses 1342522
+l1_dcache_miss_rate 0.020648
+l1_icache_hits 135711059
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 321
+number_of_instructions 100000000
+l2_cache_hit_rate 0.09380900000000003
+l1_dcache_hit_rate 0.979352
+l1_icache_hit_rate 0.999998
+cpi: 1.68900658
+
+sim_l1i_assoc_8
+l2_miss_rate 0.906191
+l2_misses_num 1216872
+l1_dcache_hits 63676259
+l1_dcache_misses 1342522
+l1_dcache_miss_rate 0.020648
+l1_icache_hits 135711059
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 321
+number_of_instructions 100000000
+l2_cache_hit_rate 0.09380900000000003
+l1_dcache_hit_rate 0.979352
+l1_icache_hit_rate 0.999998
+cpi: 1.68900658
+
+sim_l1i_assoc_4
+l2_miss_rate 0.906191
+l2_misses_num 1216872
+l1_dcache_hits 63676259
+l1_dcache_misses 1342522
+l1_dcache_miss_rate 0.020648
+l1_icache_hits 135711059
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 321
+number_of_instructions 100000000
+l2_cache_hit_rate 0.09380900000000003
+l1_dcache_hit_rate 0.979352
+l1_icache_hit_rate 0.999998
+cpi: 1.68900658
+
+sim_l1i_assoc_2
+l2_miss_rate 0.906191
+l2_misses_num 1216872
+l1_dcache_hits 63676259
+l1_dcache_misses 1342522
+l1_dcache_miss_rate 0.020648
+l1_icache_hits 135711059
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 321
+number_of_instructions 100000000
+l2_cache_hit_rate 0.09380900000000003
+l1_dcache_hit_rate 0.979352
+l1_icache_hit_rate 0.999998
+cpi: 1.68900658
+
+sim_l1i_assoc_1
+l2_miss_rate 0.906183
+l2_misses_num 1216882
+l1_dcache_hits 63676259
+l1_dcache_misses 1342522
+l1_dcache_miss_rate 0.020648
+l1_icache_hits 135711037
+l1_icache_miss_rate 0.000003
+l1_icache_miss_num 343
+number_of_instructions 100000000
+l2_cache_hit_rate 0.09381700000000004
+l1_dcache_hit_rate 0.979352
+l1_icache_hit_rate 0.999997
+cpi: 1.6890129
+

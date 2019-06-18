@@ -1,0 +1,75 @@
+sim_l2_cache_4MB
+l2_miss_rate 0.791051
+l2_misses_num 41917
+l1_dcache_hits 34821786
+l1_dcache_misses 52679
+l1_dcache_miss_rate 0.001511
+l1_icache_hits 137063023
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 310
+number_of_instructions 100000000
+l2_cache_hit_rate 0.20894900000000005
+l1_dcache_hit_rate 0.998489
+l1_icache_hit_rate 0.999998
+cpi: 1.02413784
+
+sim_l2_cache_2MB
+l2_miss_rate 0.860952
+l2_misses_num 45621
+l1_dcache_hits 34821786
+l1_dcache_misses 52679
+l1_dcache_miss_rate 0.001511
+l1_icache_hits 137063023
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 310
+number_of_instructions 100000000
+l2_cache_hit_rate 0.13904799999999995
+l1_dcache_hit_rate 0.998489
+l1_icache_hit_rate 0.999998
+cpi: 1.02598984
+
+sim_l2_cache_1MB
+l2_miss_rate 0.920663
+l2_misses_num 48785
+l1_dcache_hits 34821786
+l1_dcache_misses 52679
+l1_dcache_miss_rate 0.001511
+l1_icache_hits 137063023
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 310
+number_of_instructions 100000000
+l2_cache_hit_rate 0.07933699999999999
+l1_dcache_hit_rate 0.998489
+l1_icache_hit_rate 0.999998
+cpi: 1.02757184
+
+sim_l2_cache_512kB
+l2_miss_rate 0.979128
+l2_misses_num 51883
+l1_dcache_hits 34821786
+l1_dcache_misses 52679
+l1_dcache_miss_rate 0.001511
+l1_icache_hits 137063023
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 310
+number_of_instructions 100000000
+l2_cache_hit_rate 0.020872
+l1_dcache_hit_rate 0.998489
+l1_icache_hit_rate 0.999998
+cpi: 1.02912084
+
+sim_l2_cache_256kB
+l2_miss_rate 0.989130
+l2_misses_num 52413
+l1_dcache_hits 34821786
+l1_dcache_misses 52679
+l1_dcache_miss_rate 0.001511
+l1_icache_hits 137063023
+l1_icache_miss_rate 0.000002
+l1_icache_miss_num 310
+number_of_instructions 100000000
+l2_cache_hit_rate 0.010870000000000046
+l1_dcache_hit_rate 0.998489
+l1_icache_hit_rate 0.999998
+cpi: 1.02938584
+

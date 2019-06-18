@@ -1,0 +1,27 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 17 2019 11:01:36
+gem5 started May  1 2019 20:38:27
+gem5 executing on metallica.cse.buffalo.edu, pid 46229
+command line: build/X86/gem5.opt -d /home/csgrad/ahamed/bin/sims/sim_l2_cache_2MB configs/example/se.py -I 100000000 -c /util/gem5/benchmark/470.lbm/src/benchmark -o ' 20 reference.dat 0 1 /util/gem5/benchmark/470.lbm/data/100_100_130_cf_a.of ' --caches --l2cache --l1d_size=256kB --l1i_size=256kB --l2_size=2MB --l1d_assoc=16 --l1i_assoc=16 --l2_assoc=16 --cacheline_size=128
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/util/gem5/benchmark/470.lbm/src/benchmark'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.30 * 10^6 Cells
+	nTimeSteps     : 20
+	result file    : reference.dat
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : /util/gem5/benchmark/470.lbm/data/100_100_130_cf_a.of
+
+Exiting @ tick 83441716000 because a thread reached the max instruction count

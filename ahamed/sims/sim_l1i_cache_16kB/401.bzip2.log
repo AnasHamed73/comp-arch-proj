@@ -1,0 +1,30 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 17 2019 11:01:36
+gem5 started May  1 2019 20:16:55
+gem5 executing on metallica.cse.buffalo.edu, pid 43748
+command line: build/X86/gem5.opt -d /home/csgrad/ahamed/bin/sims/sim_l1i_cache_16kB configs/example/se.py -I 100000000 -c /util/gem5/benchmark/401.bzip2/src/benchmark -o /util/gem5/benchmark/401.bzip2/data/input.program --caches --l2cache --l1d_size=256kB --l1i_size=16kB --l2_size=4MB --l1d_assoc=16 --l1i_assoc=16 --l2_assoc=16 --cacheline_size=128
+
+info: Standard input is not a terminal, disabling listeners.
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+warn: Sockets disabled, not accepting gdb connections
+**** REAL SIMULATION ****
+info: Entering event queue @ 0.  Starting simulation...
+warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/util/gem5/benchmark/401.bzip2/src/benchmark'
+info: Increasing stack size by one page.
+warn: ignoring syscall access(...)
+spec_init
+Loading Input Data
+Duplicating 8070616 bytes
+warn: instruction 'prefetch_nta' unimplemented
+warn: instruction 'prefetch_nta' unimplemented
+Duplicating 16141232 bytes
+Duplicating 32282464 bytes
+Duplicating 2543936 bytes
+Input data 67108864 bytes in length
+Compressing Input Data, level 5
+info: Increasing stack size by one page.
+Exiting @ tick 80752755500 because a thread reached the max instruction count
